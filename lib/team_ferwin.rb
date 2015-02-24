@@ -51,6 +51,14 @@ class TeamFerwin
       self.to_i * other.to_i
     end
 
+    def %(other)
+      self.to_i * other.to_i
+    end
+
+    def **(other)
+      self.to_i * other.to_i
+    end
+
     private
       def arabic(token)
         ROMAN_NUMERALS[token]
