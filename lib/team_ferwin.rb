@@ -52,11 +52,11 @@ class TeamFerwin
     end
 
     def %(other)
-      self.to_i * other.to_i
+      self.to_i % other.to_i
     end
 
     def **(other)
-      self.to_i * other.to_i
+      self.to_i ** other.to_i
     end
 
     private
